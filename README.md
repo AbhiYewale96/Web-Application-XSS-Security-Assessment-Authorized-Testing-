@@ -14,8 +14,8 @@ Performed XSS vulnerability testing on a live web application in an authorized e
 
 ## 📸 Screenshots
 
-![Idenfied](screenshots/Identified fields.png)
-![Result](Screenshots/Login.png)
+![Idenfied fields](screenshots/Identified fields.png)
+![Payload1](Screenshots/Payload1(Reflected XSS).png)
 
 ## 📊 Result
 No XSS vulnerabilities were identified. The application demonstrated secure input validation.
