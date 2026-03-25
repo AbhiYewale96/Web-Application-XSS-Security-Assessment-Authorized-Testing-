@@ -5,31 +5,31 @@ This project demonstrates a professional security assessment performed on a live
 
 ## 🎯 Objective
 To evaluate the application's resilience against:
--Reflected XSS
--Stored XSS
--DOM-Based XSS
+Reflected XSS
+Stored XSS
+DOM-Based XSS
 
 ## 📍 Scope
 Target: Live Web Application (Authorized Testing)
 Module Tested: Contact Form
 Input Fields:
--Full Name
--Email Address
--hone Number
--Message Field
+Full Name
+Email Address
+hone Number
+Message Field
 
 ## 🛠 Tools Used
--Web Browser (Google Chrome)
--Browser Developer Tools
--Manual Payload Testing
+Web Browser (Google Chrome)
+Browser Developer Tools
+Manual Payload Testing
 
 ## 🔍 Testing Methodology
 The assessment followed a structured approach:
 
 Input Field Identification
--Payload Injection
--Response Analysis
--Execution Validation
+Payload Injection
+Response Analysis
+Execution Validation
 
 ## ⚠️ Payloads Used
 <script>alert(1)</script>
