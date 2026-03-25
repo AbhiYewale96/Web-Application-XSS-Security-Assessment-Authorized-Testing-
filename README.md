@@ -1,16 +1,40 @@
 # 🔐 Web Application XSS Security Assessment
 
 ## 📌 Overview
-Performed XSS vulnerability testing on a live web application in an authorized environment.
+This project demonstrates a professional security assessment performed on a live web application to identify Cross-Site Scripting (XSS) vulnerabilities. The testing was conducted in an authorized environment following ethical security practices.
+
+## 🎯 Objective
+To evaluate the application's resilience against:
+-Reflected XSS
+-Stored XSS
+-DOM-Based XSS
+
+## 📍 Scope
+Target: Live Web Application (Authorized Testing)
+Module Tested: Contact Form
+Input Fields:
+-Full Name
+-Email Address
+-hone Number
+-Message Field
 
 ## 🛠 Tools Used
-- Browser DevTools  
-- Manual Testing  
+-Web Browser (Google Chrome)
+-Browser Developer Tools
+-Manual Payload Testing
 
-## 🔍 Testing Performed
-- Reflected XSS  
-- Stored XSS  
-- DOM-Based XSS
+## 🔍 Testing Methodology
+The assessment followed a structured approach:
+
+Input Field Identification
+-Payload Injection
+-Response Analysis
+-Execution Validation
+
+## ⚠️ Payloads Used
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<script>alert('stored')</script>
 
 ## 📸 Screenshots
 
@@ -53,10 +77,32 @@ No execution observed.
 ![Source Page](screenshots/Source%20page.png)
 
 ## 📊 Result
-No XSS vulnerabilities were identified. The application demonstrated secure input validation.
+Test Type	Result
+ Reflected XSS -	Not Vulnerable
+ Stored XSS -	Not Vulnerable
+ DOM-Based XSS -	Not Vulnerable
 
-## 📚 Key Learning
-Understanding how real-world applications prevent XSS attacks using proper validation and encoding.
+ ## 🔎 Observations
+Input validation is properly implemented
+Script payloads are not executed
+No reflection of malicious input in response
+Application demonstrates secure input handling
 
-## ⚖️ Ethical Note
-Testing was conducted with proper permission and followed ethical security practices.
+## ✅ Conclusion
+The application is not vulnerable to basic XSS attacks in the tested scope. Proper validation and secure coding practices effectively prevent script execution.
+
+## 🛡 Recommendations
+Implement output encoding
+Apply strict input validation
+Use Content Security Policy (CSP)
+Conduct regular security testing
+
+## 📚 Learning Outcome
+This project provided hands-on experience in testing real-world applications and understanding how modern applications defend against XSS attacks.
+
+## ⚖️ Ethical Consideration
+This assessment was conducted with proper authorization. No harmful or intrusive actions were performed.
+
+## 🔗 Author
+Abhishek Yewale
+Cybersecurity Enthusiast | VAPT | OWASP Top 10
