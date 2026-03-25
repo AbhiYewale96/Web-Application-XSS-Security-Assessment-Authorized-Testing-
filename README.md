@@ -14,7 +14,7 @@ Performed XSS vulnerability testing on a live web application in an authorized e
 
 ## 📸 Screenshots
 
-![XSS Test](Screenshots/Homepage.png)
+![Idenfied](screenshots/Identified fields.png)
 ![Result](Screenshots/Login.png)
 
 ## 📊 Result
