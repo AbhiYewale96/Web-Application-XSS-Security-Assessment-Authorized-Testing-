@@ -16,6 +16,7 @@ Performed XSS vulnerability testing on a live web application in an authorized e
 
 ##Identfied Fields
 ![Identified Fields](screenshots/Identified%20fields.png)
+This screenshot shows all user input fields discovered during testing.
 ##Payload1 Test
 ![Payload1 Test](screenshots/Payload1(Reflected%20XSS).png)
 ![Payload1 Submitted](screenshots/Payload1%20submitted.png)
